@@ -1,9 +1,5 @@
-[build]
-  # Optional: tell Netlify there is nothing to build
-  publish = "."
-  command = ""
-
-# Attach the edge function to our relay path
-[[edge_functions]]
-  path = "/relay/*"
-  function = "relay"
+[[redirects]]
+  from = "/relay/*"
+  to = "https://backend.example.com/:splat"
+  status = 200
+  force = true
