@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/relay/*"
-  to = "https://backend.example.com/:splat"
+  from = "/*"
+  to = "https://x2.mjpax.eu.cc:26503/:splat"
   status = 200
   force = true
